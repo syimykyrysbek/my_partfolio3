@@ -1,19 +1,21 @@
 <!DOCTYPE html>
+{% load static %}
+
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>Syimyk</title>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="main">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="index1.png" alt="index" height="35px" width="35px"></a>
+          <a class="navbar-brand" href="#"><img src="{% static 'images/index1.png' %}" alt="index" height="35px" width="35px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,7 +52,7 @@
       
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://www.xda-developers.com/files/2020/07/sale_31769_article_image.jpg" class="d-block w-100" alt="code" height="800px">
+            <img src="https://www.xda-developers.com/files/2020/07/sale_31769_article_image.jpg" class="d-block w-100  symuyk" alt="code">
             <div class="carousel-caption d-none d-md-block">
                <div data-aos="fade-up">
               <h5>ITC </h5>
@@ -59,7 +61,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/07/Python-Developer.png" class="d-block w-100" alt="code">
+            <img src="https://www.interviewbit.com/blog/wp-content/uploads/2021/07/Python-Developer.png" class="d-block w-100 symuyk" alt="code">
             <div class="carousel-caption d-none d-md-block">
               <h5>Курс прогромирование</h5>
               <p>Учитесь ITCp</p>
@@ -67,7 +69,7 @@
           </div>
 
           <div class="carousel-item ">
-            <img src="https://www.mindinventory.com/blog/wp-content/uploads/2019/06/python-developer.png" class="d-block w-100" alt="code" >
+            <img src="https://www.mindinventory.com/blog/wp-content/uploads/2019/06/python-developer.png" class="d-block w-100 symuyk" alt="code" >
             <div class="carousel-caption d-none d-md-block">
               <h5>Меня зозут сыймык</h5>
               <p>мне 17 лет</p>
@@ -124,7 +126,7 @@
                   <div data-aos="flip-left">
             <div class="col">
               <div class="card shadow-sm">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4FMscSw6gOeBFEPeYhVjWH7si3ng9TG_jWg&usqp=CAU">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4FMscSw6gOeBFEPeYhVjWH7si3ng9TG_jWg&usqp=CAU" class="sss">
               </div>    
                 <div class="card-body">
                   <p class="card-text">Валейбол ойно</p>
@@ -141,7 +143,7 @@
             <div class="col">
             <div data-aos="flip-up">
               <div class="card shadow-sm">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbYvwTqmCeG8XEThl1yqpavYgs-Hq0o8EEqw&usqp=CAU">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbYvwTqmCeG8XEThl1yqpavYgs-Hq0o8EEqw&usqp=CAU" class="sss">
                 <div class="card-body">
                   <p class="card-text">Сурот тартуу</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -157,7 +159,7 @@
             </div>
             <div data-aos="zoom-in" class="col">
               <div class="card shadow-sm">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRry7oEv0r8-pr3K9ETs3a-Ix3fypsV11e78w&usqp=CAU" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRry7oEv0r8-pr3K9ETs3a-Ix3fypsV11e78w&usqp=CAU" class="sss" >
                 <div class="card-body">
                   <p class="card-text">Футбол ойноо</p>
                   <div class="d-flex justify-content-between align-items-center">
